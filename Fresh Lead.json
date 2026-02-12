@@ -1,0 +1,348 @@
+Fresh Lead
+
+{
+  "_id": {
+    "$oid": "67597b9270bfffd1ef2c77ec"
+  },
+  "name": "Vishwas",
+  "phone": "8938017265",
+  "createAt": {
+    "$date": "2024-12-11T11:42:57.929Z"
+  },
+  "updateAt": {
+    "$date": "2025-07-12T07:46:01.632Z"
+  },
+  "company": {
+    "$oid": "672876351633b41e68d7c51e"
+  },
+  "query": [],
+  "createdBy": {
+    "$oid": "6756d4bf90b17e428d6ecc7f"
+  },
+  "leadStatus": "fresh",
+  "assign": [],
+  "__v": 3,
+  "assignAt": null,
+  "isRechurn": true
+}
+
+
+Followup Lead with its query
+
+{
+  "_id": {
+    "$oid": "6759d41613f5caa6e8bb014c"
+  },
+  "name": "Aamir khan",
+  "phone": "9711826456",
+  "createAt": {
+    "$date": "2024-12-11T17:55:02.400Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-11T08:22:31.358Z"
+  },
+  "company": {
+    "$oid": "672876351633b41e68d7c51e"
+  },
+  "query": [
+    {
+      "$oid": "6762b7b9c1aaf2a06882868c"
+    }
+  ],
+  "createdBy": {
+    "$oid": "6756d4bf90b17e428d6ecc7f"
+  },
+  "leadStatus": "followup",
+  "assign": [
+    {
+      "$oid": "672876361633b41e68d7c521"
+    }
+  ],
+  "__v": 4,
+  "call_date": {
+    "$date": "2024-12-18T11:53:29.260Z"
+  },
+  "deal_done_date": null,
+  "followup_date": {
+    "$date": "2024-12-18T11:53:29.260Z"
+  },
+  "meeting_done_date": null,
+  "ringing_switch_off_date": null,
+  "visit_done_date": null,
+  "assignAt": {
+    "$date": "2025-02-24T10:22:19.090Z"
+  },
+  "address": "",
+  "email": "",
+  "source": "Panchsheel Data "
+}
+
+query
+{
+  "_id": {
+    "$oid": "6762b7b9c1aaf2a06882868c"
+  },
+  "status": "follow-up",
+  "leadType": "commercial",
+  "location": "Noida Extension",
+  "purpose": "",
+  "name": "Aamir khan",
+  "phone": "9711826456",
+  "budget": "5000000",
+  "bhk": "Retail Shop",
+  "followup_date": {
+    "$date": "1970-01-01T18:29:59.999Z"
+  },
+  "call_status": "Call Picked",
+  "remarks": [
+    {
+      "$oid": "6762b7b9c1aaf2a06882868a"
+    },
+    {
+      "$oid": "679b4c5cd1254bc132931dcb"
+    },
+    {
+      "$oid": "679e00484b53e82fcf2f880e"
+    },
+    {
+      "$oid": "6863d3c534e3eff7e15f0e70"
+    }
+  ],
+  "user": {
+    "$oid": "6756d4bf90b17e428d6ecc7f"
+  },
+  "company": {
+    "$oid": "672876351633b41e68d7c51e"
+  },
+  "createAt": {
+    "$date": "2024-12-18T11:53:29.249Z"
+  },
+  "updateAt": {
+    "$date": "2025-07-01T12:25:41.570Z"
+  },
+  "createdBy": {
+    "$oid": "6756d4bf90b17e428d6ecc7f"
+  },
+  "__v": 0,
+  "project": "Civitech Santony",
+  "call_date": {
+    "$date": "2025-07-01T12:25:41.570Z"
+  },
+  "ringing_date": {
+    "$date": "2025-01-30T09:54:36.007Z"
+  },
+  "exp_visit_date": {
+    "$date": "2025-04-10T18:29:59.999Z"
+  }
+}
+
+
+Not interested lead
+
+{
+  "_id": {
+    "$oid": "675945c5398ad8d293b1662d"
+  },
+  "name": "Pradeep Pandey",
+  "phone": "8700594008",
+  "createAt": {
+    "$date": "2024-12-11T07:56:17.554Z"
+  },
+  "updateAt": {
+    "$date": "2025-05-01T10:39:31.981Z"
+  },
+  "company": {
+    "$oid": "672876351633b41e68d7c51e"
+  },
+  "query": [
+    {
+      "$oid": "675d63b329f02bf5c9c359a7"
+    },
+    {
+      "$oid": "68134f6335e806c01562297a"
+    }
+  ],
+  "createdBy": {
+    "$oid": "6756d84fa4a01eadb962f956"
+  },
+  "leadStatus": "notInterest",
+  "assign": [
+    {
+      "$oid": "6756d84fa4a01eadb962f956"
+    }
+  ],
+  "__v": 1,
+  "address": "Panchsheel Green 1 ",
+  "email": "",
+  "source": "Panchsheel green F2 907"
+}
+
+query
+
+{
+  "_id": {
+    "$oid": "68134f6335e806c01562297a"
+  },
+  "call_date": {
+    "$date": "2025-05-01T10:39:31.961Z"
+  },
+  "call_visit_meeting_consider_in_follow_up_date": null,
+  "visit_done_date": null,
+  "meeting_done_date": null,
+  "deal_done_date": null,
+  "ringing_date": null,
+  "switch_off_date": null,
+  "wrong_no_date": null,
+  "not_interested_date": {
+    "$date": "2025-05-01T10:39:31.961Z"
+  },
+  "interested_date": null,
+  "status": "Not Interested",
+  "leadType": "commercial",
+  "location": "Noida Extension",
+  "purpose": "",
+  "name": "Pradeep Pandey",
+  "phone": "8700594008",
+  "project": "Golden I",
+  "call_status": "Call Picked",
+  "remarks": [
+    {
+      "$oid": "68134f6335e806c015622977"
+    }
+  ],
+  "user": null,
+  "company": {
+    "$oid": "672876351633b41e68d7c51e"
+  },
+  "createAt": {
+    "$date": "2025-05-01T10:39:31.959Z"
+  },
+  "updateAt": {
+    "$date": "2025-05-01T10:39:31.961Z"
+  },
+  "createdBy": {
+    "$oid": "6756d84fa4a01eadb962f956"
+  },
+  "__v": 0
+}
+
+
+deal done lead
+
+{
+  "_id": {
+    "$oid": "675ad65f63bd52296cd34f4e"
+  },
+  "name": "Praveen Pandey ",
+  "phone": "9711119641",
+  "email": "praveenpandey@gmail.com",
+  "source": "Self ",
+  "address": "Panchseel Green  1",
+  "createAt": {
+    "$date": "2024-12-12T12:17:15.847Z"
+  },
+  "updateAt": {
+    "$date": "2025-01-18T10:33:39.483Z"
+  },
+  "company": {
+    "$oid": "672876351633b41e68d7c51e"
+  },
+  "query": [
+    {
+      "$oid": "675ad6f07761e83ecb5b7665"
+    }
+  ],
+  "createdBy": {
+    "$oid": "672876361633b41e68d7c521"
+  },
+  "leadStatus": "deal-done",
+  "assign": [
+    {
+      "$oid": "672876361633b41e68d7c521"
+    }
+  ],
+  "assignAt": {
+    "$date": "2024-12-26T10:07:07.984Z"
+  },
+  "__v": 2,
+  "deal_done_date": {
+    "$date": "2025-01-18T10:33:39.477Z"
+  },
+  "visit_done_date": {
+    "$date": "2025-01-18T10:33:39.483Z"
+  }
+}
+
+
+query
+
+{
+  "_id": {
+    "$oid": "675ad6f07761e83ecb5b7665"
+  },
+  "status": "Deal Done",
+  "leadType": "residential",
+  "location": "",
+  "purpose": "",
+  "name": "Praveen Pandey ",
+  "phone": "9711119641",
+  "budget": "70 lakh",
+  "bhk": "2 BHK",
+  "type": "Semi Furnished",
+  "size": "1000",
+  "exp_visit_date": {
+    "$date": "2024-12-11T18:30:00.000Z"
+  },
+  "floor": "Mid floor ",
+  "followup_date": {
+    "$date": "2024-12-13T18:30:00.000Z"
+  },
+  "visit_done": {
+    "$date": "2024-12-11T18:30:00.000Z"
+  },
+  "call_status": "Visit Done",
+  "remarks": [
+    {
+      "$oid": "675ad6ef7761e83ecb5b7661"
+    },
+    {
+      "$oid": "675ad6ef7761e83ecb5b7663"
+    },
+    {
+      "$oid": "676e9faac04cd36ea59cbc9b"
+    },
+    {
+      "$oid": "6780d81943511c9faf6d9d55"
+    },
+    {
+      "$oid": "678b810580c1a441068a1d02"
+    },
+    {
+      "$oid": "678b838304dd2554c8c971b0"
+    }
+  ],
+  "user": {
+    "$oid": "672876361633b41e68d7c521"
+  },
+  "company": {
+    "$oid": "672876351633b41e68d7c51e"
+  },
+  "createAt": {
+    "$date": "2024-12-12T12:28:32.035Z"
+  },
+  "updateAt": {
+    "$date": "2025-01-18T10:33:39.467Z"
+  },
+  "createdBy": {
+    "$oid": "672876361633b41e68d7c521"
+  },
+  "__v": 0,
+  "closing_amount": "6915000",
+  "sell_revenue": "69000",
+  "unit_no": "F3 808",
+  "actual_revnue": "69000",
+  "incentive_slab": "69000",
+  "deal_done_date": {
+    "$date": "2025-01-18T10:33:39.477Z"
+  }
+}

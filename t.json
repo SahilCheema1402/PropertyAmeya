@@ -1,0 +1,51 @@
+{
+    "name": "Akash",
+    "email": "abc@gmail.com",
+    "phone": "8383810563",
+    "address": "abc",
+    "createAt": {
+      "$date": "2024-08-20T04:05:28.889Z"
+    },
+    "company": {
+      "$oid": "66aca97b7fe4b2f9b01762ae"
+    },
+    "createdBy": {
+      "$oid": "66b07fd6e3e7deecc1434201"
+    },
+    "query": [
+      {
+        "services": "custom app",
+        "createAt": "2024-08-21T17:40:20.618Z",
+        "updateAt": "2024-08-21T17:40:20.618Z",
+        "createdBy": "66b07fd6e3e7deecc1434201"
+      },
+      {
+        "services": "smm",
+        "createAt": "2024-08-21T18:41:21.190Z",
+        "updateAt": "2024-08-21T18:41:21.190Z",
+        "createdBy": { // make them same
+          "_id": "66b07fd6e3e7deecc1434201",
+          "userName": "vikasDev8",
+          "email": "vikas.verma@iameya.in",
+          "phone": "8383810563",
+          "company": {
+            "_id": "66aca97b7fe4b2f9b01762ae",
+            "companyName": "Ameya Innovex",
+            "address": "T3-532, Golden I, Sector-Techzone 4, Greater Noida West, Gautam Buddha Nagar-201306",
+            "email": "ayush.abhay@iameya.in",
+            "phone": "9250087231",
+            "pincode": "201306",
+            "createAt": "2024-08-02T09:40:11.471Z",
+            "updateAt": "2024-08-02T09:40:11.471Z",
+            "__v": 0
+          },
+          "password": "$2b$10$aAm4HxErj7YDs7e2SZw3J.IWHqOwPHadnfEtrTWJnVSbjgTVEcqnW",
+          "createAt": "2024-08-05T06:38:56.433Z",
+          "updateAt": "2024-08-05T06:38:56.433Z",
+          "staff": [],
+          "role": 4,
+          "__v": 0
+        }
+      }
+    ]
+  }
