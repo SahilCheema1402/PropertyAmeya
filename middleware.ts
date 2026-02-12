@@ -1,3 +1,5 @@
+export const runtime = "nodejs";
+
 import { NextRequest, NextFetchEvent,NextResponse } from 'next/server';
 import HandleResponse from './app/_utils/response';
 import { headers, cookies } from 'next/headers'
